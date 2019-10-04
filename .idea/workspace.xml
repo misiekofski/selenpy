@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f69b58a7-29c9-492e-927b-5062a2084c22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/approach/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/approach/test-approach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/google_feeling_lucky.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/selenpy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenpy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/google_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/google_search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approach/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/approach/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +38,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="34">
-                <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+                <caret line="2" column="126" lean-forward="true" selection-start-line="2" selection-start-column="126" selection-end-line="2" selection-end-column="126" />
               </first_editor>
               <second_editor />
             </state>
@@ -174,12 +167,12 @@
       <updated>1569771227657</updated>
       <workItem from="1569771228842" duration="2958000" />
       <workItem from="1569774835959" duration="2608000" />
-      <workItem from="1570177016206" duration="2397000" />
+      <workItem from="1570177016206" duration="2499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2397000" />
+    <option name="totallyTimeSpent" value="2499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -283,7 +276,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
-            <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            <caret line="2" column="126" lean-forward="true" selection-start-line="2" selection-start-column="126" selection-end-line="2" selection-end-column="126" />
           </first_editor>
           <second_editor />
         </state>
