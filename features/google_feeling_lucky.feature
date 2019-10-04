@@ -1,4 +1,4 @@
-Feature: Checkfeeling lucky functionality on google home page
+Feature: Check feeling lucky functionality on google home page
 
   Scenario: Check I'm feeling lucky search functionality
     Given I open the site "https://www.google.com"
