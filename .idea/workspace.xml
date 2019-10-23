@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f69b58a7-29c9-492e-927b-5062a2084c22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/rows_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/multiple_rows.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/multiple_rows.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/multiple_rows.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/multiple_rows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/selenpy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenpy.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +123,7 @@
       <workItem from="1570182157216" duration="599000" />
       <workItem from="1571670194045" duration="5044000" />
       <workItem from="1571757452590" duration="3974000" />
+      <workItem from="1571842083572" duration="41000" />
     </task>
     <servers />
   </component>
