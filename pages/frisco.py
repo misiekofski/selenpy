@@ -37,12 +37,13 @@ class FriscoPage(BasePage):
         password_element.send_keys(password)
         finish_login = self.driver.find_element(*self.BIG_LOGIN_BUTTON)
         finish_login.click()
-
-    def check_delivery_date(self):
         sleep(5)
-        delivery = self.driver.find_element(*self.DELIVERY_DATE)
-        english = self.driver.find_element(*self.SWITCH_TO_ENGLISH)
-        english.click()
+
+        try:
+            english = self.driver.find_element(*self.SWITCH_TO_ENGLISH)
+            english.click()
+        except:
+            print("No switch to english button")
 
         try:
             corona = self.driver.find_element(*self.CORONA_INFO)
@@ -50,7 +51,9 @@ class FriscoPage(BasePage):
         except:
             print("No coronavirus modal present")
 
-        print(delivery.text)
+    def check_delivery_date(self):
+        sleep(5)
+        delivery = self.driver.find_element(*self.DELIVERY_DATE)
         return delivery.text
 
     def reserve_delivery(self):
@@ -66,3 +69,5 @@ class FriscoPage(BasePage):
         save_date = self.driver.find_element(*self.SAVE_DATE)
         self.driver.execute_script("arguments[0].scrollIntoView();", save_date)
         save_date.click()
+
+        sleep(5)
