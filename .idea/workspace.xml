@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f69b58a7-29c9-492e-927b-5062a2084c22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/frisco.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/frisco_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/frisco.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/selenpy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenpy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/approach/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/approach/test-approach.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/google_feeling_luckyy.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/google_search_kurde.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/multiple_rows.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/multiple_rows.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/rows_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/frisco.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/frisco.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/frisco_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/frisco_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/frisco.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/frisco.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +43,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -144,7 +141,7 @@
       <workItem from="1571670194045" duration="5044000" />
       <workItem from="1571757452590" duration="3974000" />
       <workItem from="1571842083572" duration="41000" />
-      <workItem from="1587197701917" duration="662000" />
+      <workItem from="1587197701917" duration="5028000" />
     </task>
     <servers />
   </component>
@@ -181,34 +178,54 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587197738822">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587198410125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587197738822" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1587198334235">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587198410125" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1587203841236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587198334235" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1587198334235">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1587203841236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587198334235" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1587198334235">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1587203841236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587198334235" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1587198334235">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1587203841236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587198334235" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587203841236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1587203841236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1587203841236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1587203841236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587203841236" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1587197876736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587197876736" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587203193644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587203193644" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenpy$multiple_rows_feature_Add_multiple_users_for_the_table.coverage" NAME="multiple_rows.feature:Add multiple users for the table Coverage Results" MODIFIED="1571758124447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/selenpy$frisco_feature.coverage" NAME="frisco.feature Coverage Results" MODIFIED="1587198369964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/selenpy$frisco_feature.coverage" NAME="frisco.feature Coverage Results" MODIFIED="1587203817037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/selenpy$google_search_feature.coverage" NAME="google_search.feature Coverage Results" MODIFIED="1569777081366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/selenpy$multiple_rows_feature.coverage" NAME="multiple_rows.feature Coverage Results" MODIFIED="1571761435071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>

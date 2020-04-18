@@ -1,6 +1,5 @@
 import behave_webdriver
 import pyderman as driver
-import os
 
 
 def before_all(context):
@@ -14,5 +13,4 @@ def before_feature(context, feature):
 
 
 def after_feature(context, feature):
-    pass
-    #context.behave_driver.quit()
+    context.behave_driver.quit()
