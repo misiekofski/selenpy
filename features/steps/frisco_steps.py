@@ -19,7 +19,8 @@ def close_popup_modal(context):
 @step('Login to website')
 def login_to_website(context):
     frisco = FriscoPage(context.behave_driver)
-
+    # change below credentials
+    frisco.login("user@email.com", "password")
 
 
 @step('I check nearest delivery date')
@@ -27,6 +28,7 @@ def check_delivery_date(context):
     frisco = FriscoPage(context.behave_driver)
     termin = frisco.check_delivery_date()
 
+    # months are given such as: "kwi" "maj" "cze", if delivery is free for tomorrow it will show "jutro"
     while "jutro" not in termin or "kwi" not in termin:
         now = datetime.datetime.now().strftime("%H:%M:%S")
         print(f"{now} : fucking {termin}")
@@ -39,7 +41,7 @@ def check_delivery_date(context):
     print(f"{now} : Success - reserved delivery date!")
 
     frisco.reserve_delivery()
-
+    # open new tab, and click play on this great song once you reserved delivery date
     context.behave_driver.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 't')
 
     play_button = (By.CSS_SELECTOR, 'button.ytp-large-play-button.ytp-button')
