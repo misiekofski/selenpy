@@ -29,7 +29,7 @@ def check_delivery_date(context):
     termin = frisco.check_delivery_date()
 
     # months are given such as: "kwi" "maj" "cze", if delivery is free for tomorrow it will show "jutro"
-    while "jutro" not in termin or "kwi" not in termin:
+    while "jutro" not in termin and "kwi" not in termin:
         now = datetime.datetime.now().strftime("%H:%M:%S")
         print(f"{now} : fucking {termin}")
         context.behave_driver.refresh()

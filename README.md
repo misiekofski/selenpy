@@ -9,8 +9,8 @@
 `pip install -r requirements.txt` in project main folder
 
 ## Running tests
-1. From Pycharm by running .feature file
-2. From command line by running `behave` command from project main folder
+1. From Pycharm by running .feature file in `/features` folder (right click -> run)
+2. From command line by running `behave --no-capture` command from project main folder
 
 
 ## Changing browser to Firefox (or any other)
