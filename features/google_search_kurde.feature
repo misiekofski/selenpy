@@ -7,6 +7,6 @@ Feature: Check search functionality on google home page
 
     Examples:
     | search_phrase|results_count |
-    | Selenium               | 9  |
+    | Selenium               | 7  |
     | NU@#%(*DGNS%#SFDIUBW#% | 3  |
     | pinasdgoinasdgoinasdg  | -1 |
