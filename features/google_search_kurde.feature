@@ -8,5 +8,5 @@ Feature: Check search functionality on google home page
     Examples:
     | search_phrase|results_count |
     | Selenium               | 7  |
-    | NU@#%(*DGNS%#SFDIUBW#% | 3  |
+    | Piwko                  | 3  |
     | pinasdgoinasdgoinasdg  | -1 |
