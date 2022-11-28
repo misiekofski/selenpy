@@ -26,8 +26,9 @@ class GooglePage(BasePage):
         self.accept_agreement()
         search_input = self.driver.find_element(*self.SEARCH_INPUT)
         search_input.send_keys(phrase)
-        feeling_lucky = self.driver.find_element(*self.FEELING_LUCKY)
-        feeling_lucky.click()
+        search_input.send_keys(Keys.ESCAPE)
+        feeling_lucky = self.driver.find_elements(*self.FEELING_LUCKY)
+        feeling_lucky[1].click()
 
     def normal_search(self, phrase):
         self.accept_agreement()
